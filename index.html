@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AutoRAB Enterprise 2026 - Sistem Kalkulasi RAB & Kurva S Otomatis</title>
     
+    <!-- Meta Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -20,225 +21,241 @@
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=463720902996253&ev=PageView&noscript=1"
     /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;850&display=swap" rel="stylesheet">
     
     <style>
         body { font-family: 'Inter', sans-serif; }
-        h1, h2, h3, h4 { font-family: 'Plus Jakarta Sans', sans-serif; }
-        .pulse-emerald { animation: pulse 2s infinite; }
+        .pulse-green { animation: pulse 2s infinite; }
         @keyframes pulse {
             0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
-            70% { transform: scale(1.02); box-shadow: 0 0 0 12px rgba(16, 185, 129, 0); }
+            70% { transform: scale(1.03); box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); }
             100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
         }
     </style>
 </head>
-<body class="bg-slate-950 text-slate-100 antialiased selection:bg-emerald-500 selection:text-slate-950">
+<body class="bg-slate-50 text-slate-900 antialiased selection:bg-blue-600 selection:text-white">
 
-    <header class="relative bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 pt-20 pb-16 md:py-28 overflow-hidden border-b border-slate-800/60">
-        <div class="absolute inset-0 bg-[linear-gradient(to_right,#334155_1px,transparent_1px),linear-gradient(to_bottom,#334155_1px,transparent_1px)] bg-[size:5rem_5rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-20"></div>
-        
-        <div class="max-w-6xl mx-auto px-4 relative z-10 grid md:grid-cols-12 gap-12 items-center">
-            <div class="md:col-span-7 text-center md:text-left space-y-6">
-                <span class="inline-flex items-center gap-1.5 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-bold tracking-wider uppercase px-3 py-1 rounded-full">
-                    ⚡ Standar Kontraktor Nasional & Tender Proyek 2026
+    <!-- HERO SECTION (Clean, Bright, & Professional) -->
+    <header class="relative bg-white border-b border-slate-200 pt-12 pb-16 md:py-24">
+        <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-12 gap-12 items-center">
+            
+            <!-- Left Text Content -->
+            <div class="md:col-span-7 space-y-6 text-center md:text-left">
+                <span class="inline-block bg-blue-50 text-blue-700 border border-blue-200 text-xs font-bold tracking-wider uppercase px-3 py-1 rounded-md">
+                    Standardized Project Management Systems (PMS)
                 </span>
-                <h1 class="text-3xl md:text-5xl font-extrabold leading-tight tracking-tight text-white">
-                    Jangan Pakai Excel Amatir! Hitung RAB Proyek Otomatis Pakai <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300">AutoRAB Enterprise 2026</span>
+                <h1 class="text-3xl md:text-5xl font-black text-slate-900 leading-tight tracking-tight">
+                    Jangan Pakai Format Amatir! Hitung RAB Proyek Otomatis & Presisi Dengan <span class="text-blue-700">AutoRAB Enterprise 2026</span>
                 </h1>
-                <p class="text-slate-400 text-base md:text-lg leading-relaxed max-w-2xl">
-                    Satu-satunya sistem cetakan cerdas (*Template Engine*) berstandar <strong class="text-slate-200">Project Management Systems (PMS)</strong> yang mengintegrasikan AHSP & HSPK 2026 Seluruh Indonesia. RAB + Kurva S instan terbentuk dalam hitungan menit!
+                <p class="text-slate-600 text-lg md:text-xl font-normal leading-relaxed">
+                    Satu-satunya cetakan cerdas berbasis Microsoft Excel yang mengintegrasikan <span class="text-slate-900 font-semibold">AHSP & HSPK 2026 Seluruh Indonesia</span>. Cukup input data lapangan sekali, dokumen RAB dan Kurva S Anda langsung jadi otomatis.
                 </p>
                 
-                <div class="pt-4 space-y-3">
-                    <a href="#pricing" class="pulse-emerald inline-block w-full sm:w-auto text-center bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-slate-950 text-base font-bold px-8 py-4 rounded-xl shadow-xl shadow-emerald-950/20 transition-all duration-300 transform active:scale-95">
-                        Dapatkan Sistem AutoRAB &raquo;
+                <!-- Trust Badge dari Kompetitor -->
+                <p class="text-sm font-semibold text-slate-800 flex items-center justify-center md:justify-start gap-1.5">
+                    ✅ <span class="bg-amber-100 px-1.5 py-0.5 rounded text-amber-800 font-bold">+3.140 Pengguna</span> Mandor, Kontraktor, & Estimator Telah Terbantu
+                </p>
+                
+                <!-- CTA Utama -->
+                <div class="pt-2">
+                    <a href="#checkout-box" class="pulse-green inline-block w-full sm:w-auto text-center bg-emerald-600 hover:bg-emerald-500 text-white text-lg font-bold px-10 py-4 rounded-xl shadow-xl transition-all duration-300 transform active:scale-95">
+                        Dapatkan Sistem AutoRAB Sekarang &raquo;
                     </a>
-                    <div class="flex items-center justify-center md:justify-start gap-2 text-xs text-slate-500">
-                        <span>⭐ Dipercaya +3.140 Estimator & Kontraktor</span>
-                        <span>•</span>
-                        <span>Instant Download</span>
+                    <p class="text-xs text-slate-400 mt-2">🔒 Akses Instan Langsung Download Setelah Pembayaran Sukses</p>
+                </div>
+            </div>
+
+            <!-- Right Visual Mockup (Tempat Gambar Riil Produk) -->
+            <div class="md:col-span-5 flex justify-center">
+                <div class="w-full max-w-sm bg-white border-2 border-slate-200 rounded-2xl p-4 shadow-xl bg-gradient-to-br from-white to-slate-50">
+                    <div class="aspect-[4/3] bg-slate-100 rounded-xl border border-slate-200 flex flex-col items-center justify-center p-4 text-center overflow-hidden relative group">
+                        <!-- TUGAS ANDA: Ganti 'mockup-utama.png' dengan hasil screenshot Excel Anda -->
+                        <img src="mockup-utama.png" alt="Preview Excel AutoRAB Enterprise" class="w-full h-full object-cover absolute inset-0 opacity-90 group-hover:scale-105 transition-transform">
+                        <div class="relative z-10 bg-white/90 p-3 rounded-lg border border-slate-200 shadow-sm max-w-[80%]">
+                            <p class="text-xs font-bold text-slate-900">📷 [Rekomendasi Foto]</p>
+                            <p class="text-[10px] text-slate-500 mt-1">Masukkan screenshot halaman depan/dashboard Excel AutoRAB Anda di sini</p>
+                        </div>
+                    </div>
+                    <div class="mt-4 text-center">
+                        <p class="text-xs font-bold text-slate-800 uppercase tracking-wider">Format File: Microsoft Excel (.xlsx)</p>
+                        <p class="text-[11px] text-slate-500 mt-0.5">Bisa dibuka di Laptop, PC, maupun Handphone</p>
                     </div>
                 </div>
             </div>
 
-            <div class="md:col-span-5 flex justify-center">
-                <div class="relative w-72 sm:w-80 group">
-                    <div class="absolute -inset-1 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-700"></div>
-                    <div class="relative bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-2xl transform md:rotate-3 hover:rotate-0 transition-all duration-500">
-                        <div class="w-full h-96 bg-slate-950 border border-slate-800/80 rounded-xl p-6 flex flex-col justify-between relative overflow-hidden">
-                            <div class="absolute top-0 right-0 bg-emerald-400 text-slate-950 font-extrabold text-[10px] px-4 py-1 uppercase tracking-widest rotate-45 translate-x-4 translate-y-3">ENTERPRISE</div>
-                            <div>
-                                <p class="text-emerald-400 text-[10px] font-bold tracking-widest uppercase mb-1">PMS Framework</p>
-                                <h3 class="text-xl font-extrabold text-white leading-snug tracking-tight">AutoRAB™ SYSTEM 2026</h3>
-                                <p class="text-xs text-slate-500 mt-2">Database AHSP & HSPK Se-Indonesia</p>
-                            </div>
-                            <div class="border-t border-slate-900 pt-4 space-y-2">
-                                <div class="h-1 w-12 bg-emerald-500 rounded"></div>
-                                <p class="text-[10px] text-slate-400">Diterbitkan oleh:</p>
-                                <p class="text-xs font-bold text-slate-200">Project Management Systems</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </header>
 
-    <section class="py-16 bg-slate-900/40 border-b border-slate-900">
+    <!-- COMPETITOR NUANCE: ALASAN KENAPA PERLU TOOLS INI -->
+    <section class="py-16 bg-slate-50 border-b border-slate-200">
         <div class="max-w-4xl mx-auto px-4">
-            <h2 class="text-2xl md:text-3xl font-bold text-center text-white mb-4">
-                Kenapa Membuat RAB Proyek Sering Menjadi Mimpi Buruk Anda?
+            <h2 class="text-2xl md:text-3xl font-bold text-center text-slate-900 mb-2">
+                Kenapa Anda Wajib Menggunakan Sistem Ini?
             </h2>
-            <p class="text-center text-slate-500 text-sm max-w-xl mx-auto mb-10">Banyak kontraktor pemula menderita kerugian materi akibat sistem administrasi gambar dan harga yang berantakan.</p>
+            <p class="text-center text-slate-500 text-sm max-w-md mx-auto mb-10">Baku hitung manual sering kali membuang waktu berharga Anda dan berisiko salah hitung.</p>
             
             <div class="grid md:grid-cols-3 gap-6">
-                <div class="p-5 bg-slate-900 border border-slate-800/60 rounded-xl space-y-3">
-                    <div class="text-xl">⚠️</div>
-                    <h3 class="font-bold text-slate-200 text-sm">Rumus Excel Amatir Sering Error</h3>
-                    <p class="text-xs text-slate-400 leading-relaxed">Salah klik satu sel atau tidak sengaja menghapus formula bawaan bisa mengacaukan kalkulasi seluruh proyek besar.</p>
+                <div class="p-6 bg-white border border-slate-200 rounded-xl shadow-sm space-y-3">
+                    <span class="text-2xl">⚡</span>
+                    <h3 class="font-bold text-slate-900 text-base">Hitung Cepat & Otomatis</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">Gak perlu pusing hitung material dan upah satu-persatu. Sistem langsung mengeluarkan hasil otomatis begitu data Anda masukkan.</p>
                 </div>
-                <div class="p-5 bg-slate-900 border border-slate-800/60 rounded-xl space-y-3">
-                    <div class="text-xl">🛑</div>
-                    <h3 class="font-bold text-slate-200 text-sm">Salah Estimasi Berujung Boncos</h3>
-                    <p class="text-xs text-slate-400 leading-relaxed">Keliru menghitung volume material dan upah harian pekerja di lapangan memaksa Anda nomok dari kantong pribadi.</p>
+                <div class="p-6 bg-white border border-slate-200 rounded-xl shadow-sm space-y-3">
+                    <span class="text-2xl">😎</span>
+                    <h3 class="font-bold text-slate-900 text-base">Mudah, Tanpa Keahlian Khusus</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">Sistem dirancang sesederhana mungkin agar mandor, kontraktor baru, maupun bapak-bapak awam bisa menggunakannya dengan lancar.</p>
                 </div>
-                <div class="p-5 bg-slate-900 border border-slate-800/60 rounded-xl space-y-3">
-                    <div class="text-xl">🗺️</div>
-                    <h3 class="font-bold text-slate-200 text-sm">Buta Referensi AHSP Daerah</h3>
-                    <p class="text-xs text-slate-400 leading-relaxed">Kesulitan mencari acuan Standar Harga Satuan Pekerjaan (HSPK) 2026 yang akurat untuk lokasi proyek luar kota.</p>
+                <div class="p-6 bg-white border border-slate-200 rounded-xl shadow-sm space-y-3">
+                    <span class="text-2xl">💰</span>
+                    <h3 class="font-bold text-slate-900 text-base">Hanya Sekali Bayar</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">Tidak ada biaya langganan bulanan. Hak akses penuh selamanya termasuk gratis pembaruan data di masa depan.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-16 bg-slate-950">
-        <div class="max-w-5xl mx-auto px-4">
-            <div class="text-center max-w-2xl mx-auto mb-12">
-                <h2 class="text-2xl md:text-3xl font-bold text-white">Sistem Enterprise Yang Memotong Waktu Kerja Anda Hingga 90%</h2>
-                <p class="text-xs text-slate-500 mt-2">Dapatkan keakuratan hitungan tingkat tinggi standar tender nasional tanpa perlu pusing rumus manual.</p>
+    <!-- CORE VALUE STACKING (Daftar Isi & Fitur Utama Berbasis Data Kompetitor) -->
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center max-w-xl mx-auto mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Segala yang Anda Butuhkan Untuk Menghitung Nilai Proyek</h2>
+                <p class="text-sm text-slate-500 mt-2">Lengkap dengan data acuan AHSP & HSPK seluruh daerah di Indonesia.</p>
             </div>
 
-            <div class="grid md:grid-cols-2 gap-8 items-center bg-slate-900/50 p-6 md:p-10 border border-slate-900 rounded-2xl">
-                <div class="space-y-4">
-                    <h3 class="text-xl font-bold text-emerald-400">Fitur Utama AutoRAB Enterprise 2026:</h3>
-                    <ul class="space-y-3 text-sm text-slate-400">
-                        <li class="flex items-start gap-3"><span class="text-emerald-500 mt-0.5">✔</span> <span><strong>Panel Referensi Harga Otomatis:</strong> Data harga material dan upah terintergrasi ketat di setiap menu pekerjaan.</span></li>
-                        <li class="flex items-start gap-3"><span class="text-emerald-500 mt-0.5">✔</span> <span><strong>Database AHSP & HSPK Nasional:</strong> Cakupan terlengkap se-Indonesia, meminimalisir kesalahan survei lokal.</span></li>
-                        <li class="flex items-start gap-3"><span class="text-emerald-500 mt-0.5">✔</span> <span><strong>Format Excel Murni (.xlsx):</strong> Sangat fleksibel, mudah diedit di laptop maupun HP di mana saja Anda berada.</span></li>
-                        <li class="flex items-start gap-3"><span class="text-emerald-500 mt-0.5">✔</span> <span><strong>Otomatisasi Kurva S:</strong> Grafik S-Curve proyek langsung terbangun presisi sesaat setelah data RAB terisi.</span></li>
+            <!-- Bagian Fitur 1 -->
+            <div class="grid md:grid-cols-12 gap-8 items-center border-b border-slate-100 pb-12 mb-12">
+                <div class="md:col-span-7 space-y-4">
+                    <h3 class="text-xl font-bold text-slate-900">1. Panel Referensi Harga Setiap Menu Pekerjaan</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Dilengkapi database **AHSP & HSPK Se-Indonesia** yang akurat. Anda tidak perlu lagi melakukan survei harga dasar material atau upah pekerja dari nol. Cukup pilih regional wilayah proyek Anda, harga langsung menyesuaikan.
+                    </p>
+                    <ul class="text-xs text-slate-700 space-y-2 font-medium">
+                        <li>🔹 Pencatatan Otomatis Material & Upah Kerja</li>
+                        <li>🔹 Meliputi Pekerjaan Pasangan Pondasi & Dinding</li>
                     </ul>
                 </div>
-                <div class="space-y-4 p-5 bg-slate-950 border border-slate-800 rounded-xl">
-                    <h4 class="font-bold text-slate-200 text-sm">20+ Komponen Pekerjaan Siap Pakai:</h4>
-                    <div class="grid grid-cols-2 gap-x-4 gap-y-2 text-xs text-slate-500">
-                        <span>• Galian & Struktur Pondasi</span>
-                        <span>• Pasangan Dinding & Rollag</span>
-                        <span>• Pembesian Komparatif</span>
-                        <span>• Bekisting Struktural</span>
-                        <span>• Kebutuhan Semen & Pasir</span>
-                        <span>• Analisis Upah Tukang</span>
-                        <span>• Rencana Anggaran Biaya</span>
-                        <span>• Schedule Grafik Kurva S</span>
+                <div class="md:col-span-5 bg-slate-100 rounded-xl border border-slate-200 p-2 aspect-[4/3] overflow-hidden relative group">
+                    <!-- TUGAS ANDA: Ganti dengan screenshot bagian tabel AHSP Excel Anda -->
+                    <img src="screenshot-ahsp.png" alt="Database AHSP AutoRAB" class="w-full h-full object-cover absolute inset-0 opacity-90 group-hover:scale-105 transition-transform">
+                    <div class="relative z-10 bg-white/95 p-3 rounded-lg border border-slate-200 shadow-sm text-center m-4">
+                        <p class="text-xs font-bold text-slate-900">📷 [Foto Screenshot 2]</p>
+                        <p class="text-[10px] text-slate-500 mt-0.5">Sematkan gambar tabel daftar harga satuan/AHSP Excel Anda</p>
                     </div>
                 </div>
             </div>
+
+            <!-- Bagian Fitur 2 -->
+            <div class="grid md:col-span-12 gap-8 items-center md:grid-flow-col-dense grid-cols-1 md:grid-cols-12">
+                <div class="md:col-span-5 bg-slate-100 rounded-xl border border-slate-200 p-2 aspect-[4/3] overflow-hidden relative group md:order-1">
+                    <!-- TUGAS ANDA: Ganti dengan screenshot grafik Kurva S Excel Anda -->
+                    <img src="screenshot-kurvas.png" alt="Kurva S Otomatis AutoRAB" class="w-full h-full object-cover absolute inset-0 opacity-90 group-hover:scale-105 transition-transform">
+                    <div class="relative z-10 bg-white/95 p-3 rounded-lg border border-slate-200 shadow-sm text-center m-4">
+                        <p class="text-xs font-bold text-slate-900">📷 [Foto Screenshot 3]</p>
+                        <p class="text-[10px] text-slate-500 mt-0.5">Sematkan gambar lembar kalkulasi volume otomatis atau grafik Kurva S</p>
+                    </div>
+                </div>
+                <div class="md:col-span-7 space-y-4 md:order-2">
+                    <h3 class="text-xl font-bold text-slate-900">2. Kalkulasi Otomatis 20+ Item Pekerjaan Penting</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Mulai dari hitung Volume Galian Pondasi, Pembesian, hingga Bekisting secara otomatis. Sistem cerdas ini juga langsung mengeluarkan output **Kurva S Proyek** untuk mengatur jadwal pengerjaan di lapangan agar tidak terjadi keterlambatan.
+                    </p>
+                    <div class="grid grid-cols-2 gap-2 text-xs text-slate-700 font-semibold">
+                        <span>✅ Volume Pembesian Struktural</span>
+                        <span>✅ Volume Pekerjaan Bekisting</span>
+                        <span>✅ Kebutuhan Batu Bata & Semen</span>
+                        <span>✅ Grafik Progress Kurva S</span>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <section class="py-16 bg-slate-900/20 border-t border-slate-900">
-        <div class="max-w-4xl mx-auto px-4">
-            <h2 class="text-2xl font-bold text-center text-white mb-10">Premium Add-Ons Khusus Hari Ini (Gratis)</h2>
+    <!-- MEGA BONUS UNLOCKED -->
+    <section class="py-16 bg-slate-50 border-t border-b border-slate-200">
+        <div class="max-w-3xl mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center text-slate-900 mb-2">Bonus Spesial Khusus Pembeli Hari Ini</h2>
+            <p class="text-center text-slate-500 text-xs mb-8">Diberikan gratis tanpa tambahan biaya sepeser pun untuk 100 pembeli pertama</p>
+            
             <div class="grid md:grid-cols-2 gap-6">
-                <div class="p-6 bg-slate-900/60 border border-slate-800/80 rounded-xl flex gap-4 items-start">
-                    <div class="bg-emerald-500/10 text-emerald-400 p-2 rounded-lg font-bold text-sm">#1</div>
-                    <div class="space-y-1">
-                        <h3 class="font-bold text-slate-200 text-sm">Ebook SOP Kontraktor Sukses</h3>
-                        <p class="text-xs text-slate-400 leading-relaxed">Panduan taktis manajemen operasional proyek konstruksi untuk menekan kebocoran dana material di lapangan.</p>
+                <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-sm flex items-start gap-4">
+                    <span class="text-2xl bg-blue-50 p-2 rounded-lg text-blue-700 font-bold">🎁</span>
+                    <div>
+                        <h3 class="font-bold text-slate-900 text-sm">SOP Kontraktor Sukses</h3>
+                        <p class="text-xs text-slate-500 mt-1 leading-relaxed">Panduan taktis langkah-demi-langkah mengelola manajemen internal proyek kontraktor agar berjalan rapi tanpa kebocoran dana keuangan.</p>
                     </div>
                 </div>
-                <div class="p-6 bg-slate-900/60 border border-slate-800/80 rounded-xl flex gap-4 items-start">
-                    <div class="bg-emerald-500/10 text-emerald-400 p-2 rounded-lg font-bold text-sm">#2</div>
-                    <div class="space-y-1">
-                        <h3 class="font-bold text-slate-200 text-sm">Template Laporan Keuangan Kontraktor</h3>
-                        <p class="text-xs text-slate-400 leading-relaxed">Format pelaporan arus kas (*cash flow*) korporasi kontraktor terstandar untuk memantau profit bersih bulanan.</p>
+                <div class="p-5 bg-white border border-slate-200 rounded-xl shadow-sm flex items-start gap-4">
+                    <span class="text-2xl bg-blue-50 p-2 rounded-lg text-blue-700 font-bold">🎁</span>
+                    <div>
+                        <h3 class="font-bold text-slate-900 text-sm">Template Laporan Keuangan</h3>
+                        <p class="text-xs text-slate-500 mt-1 leading-relaxed">Format pelaporan arus kas masuk dan keluar perusahaan kontraktor siap pakai agar pencatatan margin profit bersih Anda menjadi transparan.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="pricing" class="py-16 bg-gradient-to-b from-slate-950 to-slate-900 border-t border-slate-800/40">
+    <!-- PRICE & CHECKOUT SECTION (Optimized for Senior Market) -->
+    <section id="checkout-box" class="py-16 bg-white">
         <div class="max-w-md mx-auto px-4 text-center">
-            <div class="bg-slate-900 border border-slate-800 shadow-2xl rounded-2xl p-8 relative overflow-hidden">
-                <div class="bg-emerald-500 text-slate-950 text-[10px] font-extrabold py-1 px-4 uppercase tracking-widest mb-6 rounded-full inline-block">
-                    PROMO TERBATAS 2026
-                </div>
+            <div class="bg-slate-50 border-2 border-slate-200 shadow-2xl rounded-2xl p-8 relative">
                 
-                <p class="text-[10px] text-slate-500 font-semibold uppercase tracking-wider mb-2">Penawaran Ditutup Dalam:</p>
-                <div class="flex justify-center gap-2 mb-6 text-white font-bold text-sm">
-                    <div class="bg-slate-950 px-3 py-1.5 rounded-lg border border-slate-800/80"><span id="timer-min">14</span>m</div>
-                    <div class="bg-slate-950 px-3 py-1.5 rounded-lg border border-slate-800/80"><span id="timer-sec">59</span>s</div>
-                </div>
+                <span class="bg-red-600 text-white text-xs font-bold px-4 py-1 uppercase tracking-wider rounded-md mb-6 inline-block">
+                    PROMO PEMBUKAAN 2026
+                </span>
+                
+                <!-- Countdown Sederhana -->
+                <p class="text-xs text-slate-500 font-medium mb-4">Sisa kuota diskon hari ini tinggal beberapa slot saja.</p>
 
+                <!-- HARGA CORET DI-UPGRADE JAUH LEBIH BESAR -->
                 <div class="space-y-2 mb-6">
-                    <p class="text-slate-500 text-sm">Harga Normal Sistem: <span class="line-through decoration-red-600 decoration-2">Rp 530.000</span></p>
-                    <p class="text-4xl font-black text-white tracking-tight">Rp 97.000</p>
-                    <p class="text-[11px] text-emerald-400 bg-emerald-500/10 py-1 px-3 rounded-md inline-block font-medium">
-                        🎉 Hemat 78% + Hak Akses Selamanya & Free Update
+                    <p class="text-slate-400 text-xl font-bold tracking-tight">
+                        Harga Normal: <span class="line-through decoration-red-600 decoration-[4px] text-slate-500 text-2xl px-1">Rp 530.000</span>
+                    </p>
+                    <p class="text-sm text-slate-500 font-medium">Harga Kompetitor Luar Sana: Rp 147.000</p>
+                    <div class="text-5xl font-black text-slate-900 tracking-tight pt-2">
+                        Rp 97.000
+                    </div>
+                    <p class="text-xs font-bold text-emerald-600 bg-emerald-50 border border-emerald-100 py-1.5 px-3 rounded-md inline-block mt-2">
+                        🎉 Anda Menghemat Uang Investasi Sebesar Rp 433.000
                     </p>
                 </div>
 
-                <a href="URL_CHECKOUT_MAYAR_ANDA" onclick="fbq('track', 'AddToCart', {value: 97000, currency: 'IDR'});" target="_blank" class="block w-full text-center bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold py-4 rounded-xl shadow-lg shadow-emerald-500/10 transition-all duration-300 transform active:scale-95 text-base">
-                    Download AutoRAB Enterprise
+                <!-- TOMBOL ORDER UTAMA (DENGAN EVENT PIXEL) -->
+                <a href="URL_CHECKOUT_MAYAR_ANDA" onclick="fbq('track', 'AddToCart', {value: 97000, currency: 'IDR'});" target="_blank" class="block w-full text-center bg-emerald-600 hover:bg-emerald-500 text-white text-lg font-bold py-4 rounded-xl shadow-lg transition-transform active:scale-95">
+                    Ambil Akses AutoRAB Sekarang
                 </a>
 
-                <p class="text-[10px] text-slate-500 mt-4 leading-relaxed">
-                    Sistem pembayaran aman dan download instan otomatis diatur via gateway Mayar.id. Menghindari kerugian jutaan rupiah akibat salah kalkulasi proyek lapangan.
+                <p class="text-[11px] text-slate-500 mt-4 leading-relaxed">
+                    Dengan investasi kecil ini, Anda telah mengamankan bisnis Anda dari risiko rugi puluhan juta rupiah akibat salah kalkulasi nominal tender proyek lapangan.
                 </p>
             </div>
         </div>
     </section>
 
-    <footer class="py-8 bg-slate-950 text-slate-600 text-center text-xs border-t border-slate-900">
-        <p>&copy; 2026 Project Management Systems (PMS). All Rights Reserved.</p>
+    <!-- FOOTER -->
+    <footer class="py-8 bg-slate-900 text-slate-500 text-center text-xs">
+        <p>&copy; 2026 Project Management Systems (PMS). Seluruh Hak Cipta Dilindungi Undang-Undang.</p>
     </footer>
 
-    <div class="fixed bottom-0 inset-x-0 bg-slate-900 border-t border-slate-800 p-3.5 z-50 md:hidden flex items-center justify-between gap-4 shadow-2xl">
+    <!-- STICKY BOTTOM FOR MOBILE (BAPAK-BAPAK FRIENDLY) -->
+    <div class="fixed bottom-0 inset-x-0 bg-white border-t border-slate-200 p-4 z-50 md:hidden flex items-center justify-between gap-4 shadow-[0_-4px_20px_rgba(0,0,0,0.1)]">
         <div>
-            <p class="text-[9px] text-slate-500 font-semibold uppercase leading-none">Akses Selamanya</p>
-            <p class="text-lg font-black text-white mt-0.5">Rp 97.000</p>
+            <p class="text-[10px] text-slate-400 font-bold uppercase leading-none">Harga Promo</p>
+            <p class="text-2xl font-black text-slate-900">Rp 97.000</p>
         </div>
-        <a href="URL_CHECKOUT_MAYAR_ANDA" onclick="fbq('track', 'AddToCart', {value: 97000, currency: 'IDR'});" target="_blank" class="flex-1 text-center bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-bold py-3 px-4 rounded-lg shadow transition-all duration-300 transform active:scale-95">
+        <a href="URL_CHECKOUT_MAYAR_ANDA" onclick="fbq('track', 'AddToCart', {value: 97000, currency: 'IDR'});" target="_blank" class="flex-1 text-center bg-emerald-600 hover:bg-emerald-500 text-white text-base font-bold py-3.5 px-4 rounded-lg shadow-md">
             Beli Sekarang
         </a>
     </div>
 
-    <script>
-        // 15 Minutes Loop Countdown Script
-        let minutes = 14;
-        let seconds = 59;
-        const minEl = document.getElementById('timer-min');
-        const secEl = document.getElementById('timer-sec');
-
-        setInterval(() => {
-            if (seconds === 0) {
-                if (minutes === 0) {
-                    minutes = 14; 
-                    seconds = 59;
-                } else {
-                    minutes--;
-                    seconds = 59;
-                }
-            } else {
-                seconds--;
-            }
-            minEl.innerText = minutes < 10 ? '0' + minutes : minutes;
-            secEl.innerText = seconds < 10 ? '0' + seconds : seconds;
-        }, 1000);
-    </script>
 </body>
 </html>
